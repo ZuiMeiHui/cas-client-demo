@@ -12,10 +12,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @EnableCasClient
 @SpringBootApplication
-public class DemoWebApplication {
+public class CasWebApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoWebApplication.class, args);
+		SpringApplication.run(CasWebApplication.class, args);
 	}
-	
+
 }
