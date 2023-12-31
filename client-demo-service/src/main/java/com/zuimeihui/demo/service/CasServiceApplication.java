@@ -1,5 +1,6 @@
 package com.zuimeihui.demo.service;
 
+import org.jasig.cas.client.boot.configuration.EnableCasClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,11 +10,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author 醉美会 ZuiMeiHui.com
  * @date 2023-11-18 10:37:30
  */
+@EnableCasClient
 @SpringBootApplication
-public class DemoServiceApplication {
+public class CasServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoServiceApplication.class, args);
+		SpringApplication.run(CasServiceApplication.class, args);
 	}
-
+	
 }
