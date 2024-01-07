@@ -15,46 +15,18 @@
 	<name>client-demo-web</name>
 
 	<dependencies>
+		<!-- 引入common模块 -->
+		<dependency>
+			<groupId>com.zuimeihui.demo</groupId>
+			<artifactId>client-demo-common</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.jasig.cas.client/cas-client-support-springboot -->
 		<dependency>
-		    <groupId>org.jasig.cas.client</groupId>
-		    <artifactId>cas-client-support-springboot</artifactId>
-		    <version>3.6.4</version>
+			<groupId>org.jasig.cas.client</groupId>
+			<artifactId>cas-client-support-springboot</artifactId>
+			<version>3.6.4</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.jasig.cas.client/cas-client-core -->
-		<dependency>
-		    <groupId>org.jasig.cas.client</groupId>
-		    <artifactId>cas-client-core</artifactId>
-		    <version>3.6.4</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-    		<scope>provided</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
-		<dependency>
-		    <groupId>org.springframework.boot</groupId>
-		    <artifactId>spring-boot-starter-thymeleaf</artifactId>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
-		<dependency>
-		    <groupId>org.springframework.security</groupId>
-		    <artifactId>spring-security-web</artifactId>
-		</dependency>
-
-
 	</dependencies>
 
 </project>

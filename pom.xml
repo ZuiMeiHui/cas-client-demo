@@ -17,6 +17,7 @@
 	</parent>
 
 	<modules>
+		<module>client-demo-common</module>
 		<module>client-demo-service</module>
 		<module>client-demo-web</module>
 	</modules>
