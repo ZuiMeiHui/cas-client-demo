@@ -20,3 +20,5 @@ gen/
 .classpath
 .project
 .DS_Store
+/.apt_generated/
+/.apt_generated_tests/
